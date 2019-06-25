@@ -39,7 +39,7 @@ MT = MessageTemplate()
 
 class VoiceState:
     def __init__(self, name, before, after):
-        self.name = name
+        self.name = MT.get_message('name', name)
         self.before = before
         self.after = after
 
@@ -64,7 +64,7 @@ class VoiceState:
 
 class ChannelState:
     def __init__(self, name, before, after):
-        self.name = name
+        self.name = MT.get_message('name', name)
         self.before = getattr(before.channel, 'name', None)
         self.after = getattr(after.channel, 'name', None)
 

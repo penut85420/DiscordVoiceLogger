@@ -161,7 +161,9 @@ class VoiceLogger(discord.Client):
             return
 
         channel = client.get_channel(cid)
-        name = getattr(member, 'nick', member.name)
+        name = getattr(member, 'nick')
+        if name is None:
+            name = member.name
 
         vs = VoiceState(name, before, after)
         msg = vs.get_message()

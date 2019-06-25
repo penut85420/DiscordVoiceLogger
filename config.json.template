@@ -1,0 +1,7 @@
+{
+    "token": "Your BOT Token",
+    "author": ID of Author,
+    "set_cmd": "!vl set",
+    "cls_cmd": "!vl cls",
+    "shutdown_cmd": "!vl bye"
+}

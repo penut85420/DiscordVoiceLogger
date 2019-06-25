@@ -1,0 +1,30 @@
+{
+    "status_msg": {
+        "self_deaf": {
+            "True": "失去回應",
+            "False": "重返人間"
+        },
+        "self_mute": {
+            "True": "關掉麥克風",
+            "False": "打開麥克風"
+        },
+        "afk": {
+            "True": "睏去",
+            "False": "醒來"
+        }
+    },
+    "messages": {
+        "login": "以 {0.user} 的身分登入!",
+        "shutdown": "Voice Logger 被關掉惹",
+        "cant_shutdown": "你沒有權限關閉 Voice Logger!",
+        "set": "將 **{0.channel.name}** 頻道設置為 **{0.guild.name}** 的語音紀錄頻道",
+        "cls": "移除 **{0.guild.name}** 的語音紀錄頻道",
+        "name": "**{0.name}**",
+        "join": "{0.name} 加入頻道 **{0.after}**",
+        "leave": "{0.name} 離開語音惹",
+        "move": "{0.name} 從 *{0.before}* 移動到 **{0.after}**",
+        "ts": "`[{0.ts}]` {0.msg}",
+        "ts_format": "%H:%M:%S",
+        "state": "{0.name} 突然{0.state}惹"
+    }
+}
